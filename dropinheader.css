@@ -1,0 +1,108 @@
+
+/*--------------------------------------------------------------------*/
+/*	HEADER DROP IN
+/*--------------------------------------------------------------------*/	
+.drop-in-header { display: none; position: fixed; top: 0; right: 0; }
+
+.logged-in .drop-in-header {
+	top: 28px;
+	}
+
+.drop-in-header {
+	background-color: #2E3236;
+	color: #E0E4E9;
+	padding: 7px 30px;
+	width: 100%;
+	z-index: 99998;
+	}
+
+.drop-in-header .three {
+	width: auto;	
+	}
+
+/* DROP-IN LOGO & NAV */	
+.drop-in-header .logo_text {
+	line-height: 38px;
+	}
+	
+.drop-in-header .main-menu > .current_page_item > a {
+	border: none;
+	}
+	
+.drop-in-header .main-menu a {
+	padding-bottom: 0px;
+	line-height: 29px;
+	margin-bottom: 0px;
+	}	
+
+.drop-in-header .sub-menu li a {
+	line-height: 22px;
+	}
+	
+
+/* DROP-IN GENERAL STYLES */
+.drop-in-header a {
+	color: #E0E4E9;
+	}
+
+.drop-in-header .widget_text {
+	float: right;	
+	line-height: 39px;
+	}
+
+.drop-in-header .widget_text a {
+	color: #FFF;
+	font-weight: bold;
+	} 
+
+.drop-in-header .widget_text a:hover {
+	color: #00BCEB;
+	} 
+	
+.drop-in-header.widget-title {
+	display: none;
+	}
+	
+.drop-in-header ul {
+	line-height: 22px;
+	margin-bottom: 0px;
+	}
+
+.drop-in-header .header-nav {
+	top: 28px;
+	}
+	
+/* WIDGET ADJUSTMENTS */
+.drop-in-header .widget-title {
+	display: none;
+	}
+	
+.drop-in-header .bean-social-profiles {
+	margin-top: 4px;
+	}
+			
+.drop-in-header .widget_bean_social_profiles {
+	float: right;
+	}
+
+.drop-in-header .bean-social-profiles ul li.twitter a:hover, 		
+.drop-in-header .bean-social-profiles ul li.facebook a:hover, 		
+.drop-in-header .bean-social-profiles ul li.googleplus a:hover,		
+.drop-in-header .bean-social-profiles ul li.linkedin a:hover, 		  
+.drop-in-header .bean-social-profiles ul li.zerply a:hover,		 	 
+.drop-in-header .bean-social-profiles ul li.rss a:hover,			 
+.drop-in-header .bean-social-profiles ul li.dribbble a:hover,	 	 			
+.drop-in-header .bean-social-profiles ul li.vimeo a:hover, 			
+.drop-in-header .bean-social-profiles ul li.youtube a:hover, 		
+.drop-in-header .bean-social-profiles ul li.forrst a:hover, 			 
+.drop-in-header .bean-social-profiles ul li.flickr a:hover, 			 
+.drop-in-header .bean-social-profiles ul li.digg a:hover, 		
+.drop-in-header .bean-social-profiles ul li.github a:hover,	 		
+.drop-in-header .bean-social-profiles ul li.pinterest a:hover, 		 
+.drop-in-header .bean-social-profiles ul li.stumbleupon a:hover, 	   
+.drop-in-header .bean-social-profiles ul li.delicious a:hover, 		
+.drop-in-header .bean-social-profiles ul li.foursquare a:hover, 		
+.drop-in-header .bean-social-profiles ul li.behance a:hover {
+	background-color: #27292E ;
+	}
+
